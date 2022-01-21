@@ -28,3 +28,8 @@ OR
 
 Run the composer require command.
 `composer require risecommerce/store-pickup`
+
+
+For More Free Extension please visit: https://store.risecommerce.com
+
+For Any Support please join me on chat at https://risecommerce.com/
