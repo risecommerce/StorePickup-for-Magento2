@@ -1,5 +1,9 @@
-# Magento 2 Store Pickup Shipping Method module
-This module for Magento 2 ‘Store Pickup’ shipping method that is used to provide customer to pick their order from store near them.
+# Magento 2 Store Pickup Custom Shipping extension
+
+This module for [Magento 2 Store Pickup Custom Shipping extension](https://risecommerce.com/store/store-pickup-shipping.html) that is used to provide customer to pick their order from store near them.
+
+### Support:
+version - 2.3.x, 2.4.x
 
 ### Installation:
 
