@@ -7,7 +7,7 @@ version - 2.3.x, 2.4.x
 
 ### Installation:
 
-Download the source code and extract to app/code/Risecommerce folder.
+Download the source code and extract to app/code/Risecommerce/StorePickup folder.
 
 And run the following command.
 
