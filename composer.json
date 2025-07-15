@@ -1,5 +1,5 @@
 {
-  "name": "Risecommerce/store-pickup",
+  "name": "risecommerce/store-pickup",
   "description": "Magento 2.4 + Store Pickup Shipping Method module",
   "type": "magento2-module",
   "version": "1.0.0",

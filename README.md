@@ -1,39 +1,42 @@
-# Magento 2 Store Pickup Custom Shipping extension
+# Store Pickup Extension  
 
-This module for [Magento 2 Store Pickup Custom Shipping extension](https://risecommerce.com/store/store-pickup-shipping.html) that is used to provide customer to pick their order from store near them.
+This  [Magento 2 Store Pickup Custom Shipping extension](https://risecommerce.com/store/store-pickup-shipping.html) extention by Risecommerce that is used to provide customer to pick their order from store near them.
 
-### Support:
-version - 2.3.x, 2.4.x
+For more details about the extension, visit the [Magento 2 Store Pickup Custom Shipping extension](https://risecommerce.com/store/store-pickup-shipping.html).
 
-### Installation:
+If you're looking to enhance your Magento store further, consider hiring a [dedicated Magento developer](https://risecommerce.com/hire-dedicated-magento-developer.html).
 
-Download the source code and extract to app/code/Risecommerce/StorePickup folder.
+For support or inquiries, please visit our [contact page](https://risecommerce.com/contact).
 
-And run the following command.
+## Support  
+- **Magento versions:** 2.3.x, 2.4.x  
 
+## How to Install the Extension  
 
-`php bin/magento cache:clean`
+### Method I: Manual Installation  
 
-`php bin/magento module:enable Risecommerce_StorePickup`
+1. Download the archive file.  
+2. Unzip the file.  
+3. Create a folder at `[Magento_Root]/app/code/Risecommerce/StorePickup`.  
+4. Move the unzipped files to the directory `[Magento_Root]/app/code/Risecommerce/StorePickup`.  
 
-`php bin/magento setup:upgrade`
+### Method II: Using Composer  
 
-`php bin/magento cache:flush`
+Run the following command:  
 
-`php bin/magento setup:static-content:deploy -f`
+composer require risecommerce/store-pickup
 
-`php bin/magento setup:di:compile` //in production mode
+#Enable Extension:
+- php bin/magento module:enable Risecommerce_StorePickup
+- php bin/magento setup:upgrade
+- php bin/magento setup:di:compile
+- php bin/magento setup:static-content:deploy
+- php bin/magento cache:flush
 
+#Disable Extension:
+- php bin/magento module:disable Risecommerce_StorePickup
+- php bin/magento setup:upgrade
+- php bin/magento setup:di:compile
+- php bin/magento setup:static-content:deploy
+- php bin/magento cache:flush
 
-
-Please let me know if you have any query or issue regarding the module.
-
-OR 
-
-Run the composer require command.
-`composer require risecommerce/store-pickup`
-
-
-For More Free Extension please visit: https://risecommerce.com/store.html
-
-For Any Support please join me on chat at https://risecommerce.com/
